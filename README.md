@@ -12,7 +12,7 @@ Nessa primeira stake foi criado um simples servidor Web EC2 constando uma simple
 
 Foi também criado um Grupo de Segurança (Security Group) com liberação da porta 80 80, que é referente ao HTTP e a porta 22 para acesso via SSH.
 
-O servidor EC2 foi do tipo t3.micro com o Sistema Operacional Amazon Linux 2023 x86_64 Kernel 6.1, com 2vCPU e 1 GB de memória RAM. Esse servidor foi criado na região Norte da Virgínia (us-east-1).
+O servidor EC2 foi do tipo t3.micro com o Sistema Operacional Amazon Linux 2023 x86_64 Kernel 6.1, com 2vCPU 1 GB, com 8GB de memória RAM. Esse servidor foi criado na região Norte da Virgínia (us-east-1).
 
 
 Os prints do passo a passo da Stake e o arquivo em YAML constam na pasta images.
